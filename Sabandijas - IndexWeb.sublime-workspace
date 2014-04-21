@@ -1,0 +1,1271 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"head",
+				"header-shadow"
+			],
+			[
+				"mart",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"prod",
+				"producto"
+			],
+			[
+				"h",
+				"h5	Tag"
+			],
+			[
+				"imagen",
+				"imagenes"
+			],
+			[
+				"deta",
+				"detail_producto"
+			],
+			[
+				"confi",
+				"configa"
+			],
+			[
+				"thumb",
+				"thumbdetail"
+			],
+			[
+				"produc",
+				"producto"
+			],
+			[
+				"valida",
+				"validation_errors"
+			],
+			[
+				"bacr",
+				"background"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"texto",
+				"textoTema"
+			],
+			[
+				"text",
+				"textoTema"
+			],
+			[
+				"sigep_",
+				"sigep_view_instrumentoslegales"
+			],
+			[
+				"numer",
+				"numeroInstrumentoLegal"
+			],
+			[
+				"idTipo",
+				"idTipoInstrumento"
+			],
+			[
+				"ingresoAgente",
+				"ingresoAgenteAPP"
+			],
+			[
+				"data",
+				"dataRow"
+			],
+			[
+				"ima",
+				"image_file"
+			],
+			[
+				"estr",
+				"estructura"
+			],
+			[
+				"estruc",
+				"estructura"
+			],
+			[
+				"tipo",
+				"tiposnoticias"
+			],
+			[
+				"resul",
+				"result"
+			],
+			[
+				"public",
+				"publicadoNoticia"
+			],
+			[
+				"dest",
+				"destinatario"
+			],
+			[
+				"destina",
+				"destinatarios"
+			],
+			[
+				"sessio",
+				"session_userdata	CI - Session - Retrieving Session Data"
+			],
+			[
+				"idOposi",
+				"idOposicionTipo"
+			],
+			[
+				"encuesta",
+				"encuestas"
+			],
+			[
+				"idOpo",
+				"idOposicionEstado"
+			],
+			[
+				"idOpos",
+				"idOposicion"
+			],
+			[
+				"nacimien",
+				"nacimientoPersona"
+			],
+			[
+				"ingreso",
+				"ingresoAgenteSIGEP"
+			],
+			[
+				"ingresoAgent",
+				"ingresoAgenteAPP"
+			],
+			[
+				"ingresoA",
+				"ingresoAgenteAPP"
+			],
+			[
+				"row",
+				"row_set"
+			],
+			[
+				"mensaje",
+				"mensajeNuevo"
+			],
+			[
+				"sHea",
+				"sHeadContainerOp"
+			],
+			[
+				"mensajes",
+				"mensajesNuevos"
+			],
+			[
+				"GE",
+				"GetDateTimeFromFrenchToISO"
+			],
+			[
+				"agreg",
+				"agregarComentarioListado"
+			],
+			[
+				"hits",
+				"hits_view_noticias_comentarios"
+			],
+			[
+				"form",
+				"formName"
+			],
+			[
+				"coment",
+				"comentario"
+			],
+			[
+				"comentar",
+				"Comentario"
+			],
+			[
+				"titu",
+				"tituloSeccion"
+			],
+			[
+				"for",
+				"formularioComentario"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"lib",
+				"lib_autenticacion"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"laboral",
+				"laboral-cargo-perfil"
+			],
+			[
+				"design",
+				"designacion-perfil"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"laboral-",
+				"laboral-estructura-perfil"
+			],
+			[
+				"carg",
+				"cargos"
+			],
+			[
+				"desi",
+				"designaciones"
+			],
+			[
+				"agent",
+				"agentes"
+			],
+			[
+				"res",
+				"resultsTribuno"
+			],
+			[
+				"resu",
+				"resultsTribuno"
+			],
+			[
+				"scra",
+				"scrape_between"
+			],
+			[
+				"div",
+				"divfinal"
+			],
+			[
+				"separa",
+				"separate_result"
+			],
+			[
+				"session",
+				"session_userdata	CI - Session - Retrieving Session Data"
+			],
+			[
+				"aget",
+				"agente"
+			],
+			[
+				"desg",
+				"designaciones"
+			],
+			[
+				"change",
+				"change_format_date"
+			],
+			[
+				"en",
+				"enviado"
+			],
+			[
+				"load_",
+				"load_helper	CI - Load Helper File"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"enviar",
+				"enviarMensaje"
+			],
+			[
+				"desti",
+				"destinatarios"
+			],
+			[
+				"destin",
+				"destinatarioMensaje"
+			],
+			[
+				"obtener",
+				"obtenerUno"
+			],
+			[
+				"mens",
+				"mensaje"
+			],
+			[
+				"mensae",
+				"mensajes"
+			],
+			[
+				"cumpleano",
+				"cumpleanoPersona"
+			],
+			[
+				"asunto",
+				"asuntoMensaje"
+			],
+			[
+				"password",
+				"passwordNuevo"
+			],
+			[
+				"celular",
+				"celularPersona"
+			],
+			[
+				"domici",
+				"domicilioPersona"
+			],
+			[
+				"ec",
+				"ecivil"
+			],
+			[
+				"sess",
+				"session_userdata	CI - Session - Retrieving Session Data"
+			],
+			[
+				"rs",
+				"rsResult"
+			],
+			[
+				"instr",
+				"instrumentoLegal"
+			],
+			[
+				"fecha",
+				"fechaInstrumentoLegal"
+			],
+			[
+				"designa",
+				"designaciones"
+			],
+			[
+				"desig",
+				"designacion"
+			],
+			[
+				"btn",
+				"btn-crearComision"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"nombre",
+				"nombreCurso"
+			],
+			[
+				"config",
+				"config_item"
+			],
+			[
+				"idA",
+				"idAgrupamientoCCA"
+			],
+			[
+				"cuadrocar",
+				"cuadrocargoagente"
+			],
+			[
+				"mensaj",
+				"mensajes_cumpleano"
+			],
+			[
+				"mensa",
+				"mensajes_cumpleano"
+			],
+			[
+				"age",
+				"agente"
+			],
+			[
+				"pers",
+				"persona"
+			],
+			[
+				"idE",
+				"idEquivalente"
+			],
+			[
+				"Perten",
+				"perteneceCuadroCargoAgente"
+			],
+			[
+				"idCuadro",
+				"idCuadroCargo"
+			],
+			[
+				"interno",
+				"internoAgente"
+			],
+			[
+				"telefono",
+				"telefonoPersona"
+			],
+			[
+				"nacion",
+				"nacionalidadPersona"
+			],
+			[
+				"nacimie",
+				"nacimientoPersona"
+			],
+			[
+				"url",
+				"urlModulo"
+			],
+			[
+				"border-ra",
+				"border-bottom-right-radius"
+			],
+			[
+				"idCuadroCargo",
+				"idCuadroCargoAgente"
+			],
+			[
+				"idEs",
+				"idEscalafon"
+			],
+			[
+				"idC",
+				"idCuadro"
+			],
+			[
+				"eq",
+				"idEqRemun"
+			],
+			[
+				"cuad",
+				"cuadro_actual"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"titulo",
+				"tituloNoticia"
+			],
+			[
+				"strip",
+				"stripslashes"
+			],
+			[
+				"publ",
+				"publicadoNoticia"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/views/template.php",
+			"settings":
+			{
+				"buffer_size": 5877,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 1283 files for \"ext_base_nombre_sitio\"\n\nC:\\AppServ\\www\\sabandijas\\application\\views\\template.php:\n   46              <div class=\"col-lg-8 col-lg-offset-2\">\n   47                  <h1 id=\"logo\">\n   48:                     <a href=\"http://www.industriasrosobe.com.ar\" alt=\"<?=config_item('ext_base_nombre_sitio');?>\" title=\"<?=config_item('ext_base_nombre_sitio');?>\">Sabandijas - Rodados para Bebé</a>\n   49                  </h1>\n   50                  <div id=\"locked\" class=\"pull-right col-lg-2\">\n\n2 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 530,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "application/config/navigation.php",
+			"settings":
+			{
+				"buffer_size": 1132,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/themes/base/css/sabandijas.css",
+			"settings":
+			{
+				"buffer_size": 4904,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/config/ext_config.php",
+			"settings":
+			{
+				"buffer_size": 12956,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/inicio.php",
+			"settings":
+			{
+				"buffer_size": 2356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/nosotros.php",
+			"settings":
+			{
+				"buffer_size": 2512,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/models/layout_model.php",
+			"settings":
+			{
+				"buffer_size": 2789,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/AppServ/www/sabandijas/application/controllers/inicio.php",
+		"/C/AppServ/www/sabandijas/application/models/sabandijas/categorias_model.php",
+		"/C/AppServ/www/sabandijas/application/models/sabandijas_model.php",
+		"/C/AppServ/www/sabandijas/application/helpers/navigation_helper.php",
+		"/C/AppServ/www/sabandijas/assets/themes/base/css/rosobe.css",
+		"/C/AppServ/www/sabandijas/assets/themes/base/css/hits.css",
+		"/C/AppServ/www/sabandijas/application/config/config.editable.php",
+		"/C/AppServ/www/sabandijas/application/config/config.editable.titulos.php",
+		"/C/AppServ/www/sabandijas/application/config/ext_config.php",
+		"/C/AppServ/www/sabandijas/.htaccess",
+		"/C/AppServ/www/rosobe/application/views/producto.php",
+		"/C/AppServ/www/rosobe/application/config/ext_config.php",
+		"/C/AppServ/www/micans/teorema/php.include/model/catalogo.inc",
+		"/C/AppServ/www/rosobe/application/controllers/inicio.php",
+		"/C/AppServ/www/rosobe/application/views/contacto.php",
+		"/C/AppServ/www/rosobe/application/core/Ext_Controller.php",
+		"/C/AppServ/www/rosobe/application/controllers/administrator/productos.php",
+		"/C/AppServ/www/rosobe/application/cache/routes.php",
+		"/C/AppServ/www/rosobe/application/views/inicio.php",
+		"/C/AppServ/www/rosobe/application/views/productos.php",
+		"/C/AppServ/www/rosobe/application/views/administrator/rosobe/productos/formulario.php",
+		"/C/AppServ/www/rosobe/application/models/rosobe/rosobe_model.php",
+		"/C/AppServ/www/rosobe/application/models/rosobe/productos_model.php",
+		"/C/AppServ/www/micans/zottgroup/php.include/application/views/productos/productos.php",
+		"/C/AppServ/www/rosobe/assets/themes/base/js/jquery.jqzoom-core.js",
+		"/C/Users/maxim/Downloads/jqzoom_ev-2.3/js/jquery.jqzoom-core.js",
+		"/C/AppServ/www/rosobe/assets/themes/base/css/jquery.jqzoom.css",
+		"/C/Users/maxim/AppData/Local/Temp/Rar$DI04.876/jquery.jqzoom-core.js",
+		"/C/Users/maxim/AppData/Local/Temp/Rar$DI05.516/jquery.jqzoom-core-pack.js",
+		"/C/AppServ/www/rosobe/assets/images/productos/Nuevo documento de texto.txt",
+		"/C/AppServ/www/rosobe/.gitignore",
+		"/C/Users/maxim/AppData/Roaming/Microsoft/Windows/Recent/.gitconfig.lnk",
+		"/C/AppServ/www/rosobe/application/views/administrator/rosobe/dashboard/principal.php",
+		"/C/AppServ/www/rosobe/application/views/administrator/rosobe/dashboard/slider.php",
+		"/C/AppServ/www/rosobe/application/models/rosobe/dashboard_model.php",
+		"/C/AppServ/www/rosobe3/Industrias RoSoBe.sublime-workspace",
+		"/C/AppServ/www/rosobe3/Industrias RoSoBe.sublime-project",
+		"/C/AppServ/www/rosobe3/application/views/contacto.php",
+		"/C/AppServ/www/rosobe3/application/controllers/home.php",
+		"/C/AppServ/www/rosobe3/application/controllers/administrator/agentes.php",
+		"/C/AppServ/www/rosobe3/application/core/Ext_Controller.php",
+		"/C/AppServ/www/rosobe3/application/views/administrator/sigep/agentes/formulario.php",
+		"/C/AppServ/www/contacto.php",
+		"/C/AppServ/www/rosobe3/assets/themes/sigep/css/layout.css",
+		"/C/AppServ/www/rosobe3/application/views/masterpage.php",
+		"/C/AppServ/www/rosobe3/application/config/ext_config.php",
+		"/C/AppServ/www/rosobe3/application/views/galeria.php",
+		"/C/AppServ/www/rosobe3/application/config/database.php",
+		"/C/AppServ/www/rosobe3/application/config/autoload.php",
+		"/C/AppServ/www/rosobe3/application/models/rosobe_model.php",
+		"/C/AppServ/www/rosobe3/application/views/inicio.php",
+		"/C/AppServ/www/rosobe3/application/views/catalogo.php",
+		"/C/AppServ/www/rosobe3/application/views/nosotros.php",
+		"/C/AppServ/www/jose/development/assets/css/hits2.css",
+		"/C/AppServ/www/jose/development/assets/css/hits.css",
+		"/C/AppServ/www/redes1/css/general.css",
+		"/C/AppServ/www/rosobe1/application/controllers/contacto.php",
+		"/C/AppServ/www/rosobe3/application/config/navigation.php",
+		"/C/AppServ/www/redes1/css/toast.css",
+		"/C/AppServ/www/rosobe3/application/config/routes.php",
+		"/C/AppServ/www/micans/zottgroup/php.include/application/config/routes.php",
+		"/C/AppServ/www/rosobe3/.htaccess",
+		"/C/AppServ/www/EAP/inscripciones/.htaccess",
+		"/C/AppServ/www/rosobe3/application/config/config.php",
+		"/C/AppServ/www/rosobe1/application/.htaccess",
+		"/C/AppServ/www/rosobe3/application/config/config.editable.php",
+		"/C/AppServ/www/rosobe3/application/controllers/inicio.php",
+		"/C/AppServ/www/rosobe3/application/views/masterpage-mg.php",
+		"/C/AppServ/www/rosobe3/application/views/home.php",
+		"/C/AppServ/www/rosobe3/application/controllers/aut.php",
+		"/C/AppServ/www/rosobe3/application/controllers/dep.php",
+		"/C/AppServ/www/rosobe3/application/views/administrator/masterpage.php",
+		"/C/AppServ/www/rosobe3/index.php",
+		"/C/Users/maxim/Documents/Universidad/4º Año/Analisis Estrategico de Datos/Examen AED.txt",
+		"/C/AppServ/www/sigepv1/application/controllers/administrator/instrumentos.php",
+		"/C/AppServ/www/sigepv1/application/models/hits/noticias_model.php",
+		"/C/AppServ/www/sigepv1/application/models/sigep/instrumentos_model.php",
+		"//131.107.3.14/sigep/intra/application/models/admin/instrumentos_model.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/instrumentos/listado.php",
+		"/C/AppServ/www/sigepv1/application/controllers/administrator/agentes.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/agentes/listado.php",
+		"/C/AppServ/www/sigepv1/application/models/sigep/agentes_model.php",
+		"/C/AppServ/www/sigepv1/application/controllers/administrator/noticias.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/noticias/listado.php",
+		"/C/AppServ/www/sigepv1/application/views/menu/admin_1.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/instrumentos/principal.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/noticias/principal.php",
+		"/C/AppServ/www/sigepv1/application/controllers/administrator/personas.php",
+		"/C/AppServ/www/sigepv1/application/controllers/cuadro/cargos.php",
+		"/C/AppServ/www/sigepv1/application/libraries/Gridview.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/agentes/formulario.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/personas/formulario.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/personas/listado.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/agentes/formulario-back.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/agentes/principal.php",
+		"/C/AppServ/www/sigepv1/application/controllers/configuracion/personas.php",
+		"/C/AppServ/www/sigepv1/assets/libraries/jquery.gridhandler/jquery.gridhandler.js",
+		"/C/AppServ/www/sigepv1/application/models/hits/personas_model.php",
+		"/C/AppServ/www/sigepv1/assets/libraries/sigep.js",
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/personas/principal.php",
+		"/C/AppServ/www/sigepv1/assets/themes/sigep/css/layout.css",
+		"//IRMA-NOOT/Manuales/Cursos Realizados/Curse RPC/Placas de video 10 31 12 - 084707.txt",
+		"/C/AppServ/www/sigepv1/application/controllers/administrator/licencias.php",
+		"/C/AppServ/www/sigepv1/application/views/masterpage.php",
+		"/C/AppServ/www/sigepv1/application/views/menu/admin_5.php",
+		"/C/AppServ/www/sigepv1/application/models/sigep/licencias_model.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal-personal.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/listado-personal.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/listado.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/listado-solicitudes.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal-solicitudes.php",
+		"/C/AppServ/www/sigepv1/assets/themes/piedra1.0/css/layout.css",
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/mensajes/formulario.php",
+		"//131.107.3.14/sigep/intra/application/views/admin/materiales.php",
+		"/C/AppServ/www/sigepv1/application/controllers/administrator/reportes.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/reportes/especial.php",
+		"/C/AppServ/www/sigepv1/application/controllers/administrator/solicitudes.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/reportes/repo-agentes.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/formularios/lespecial.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/noticias/noticias.php",
+		"//131.107.3.14/sigep/intra/application/views/admin/capacitacion.php",
+		"//131.107.3.14/sigep/intra/application/views/admin/home.php",
+		"//131.107.3.14/sigep/intra/application/controllers/capacitacion.php",
+		"//131.107.3.14/sigep/intra/application/libraries/Nested_set.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/formularios/formulario-lespecial.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/cuadro/cargos/listado.php",
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/cuadro/cuadrocargosagentes/listado.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\AppServ\\www\\sabandijas",
+			"C:\\AppServ\\www\\rosobe",
+			"C:\\AppServ\\www\\rosobe3",
+			"C:\\AppServ\\www\\sigepv1",
+			"C:\\AppServ\\www\\sarh-desarrollo",
+			"C:\\AppServ\\www\\sigepv1\\assets\\libraries",
+			"C:\\AppServ\\www\\sigepv1\\",
+			"C:\\AppServ\\www\\sigepv1\\assets\\",
+			"C:\\AppServ\\www\\sigepv1\\assets\\themes\\sigep\\css",
+			"C:\\AppServ\\www\\sigepv1\\assets\\themes\\sigep",
+			"C:\\AppServ\\www\\sigepv1\\assets\\libraries",
+			"C:\\AppServ\\www\\sigepv1\\",
+			"C:\\AppServ\\www\\sigepv1\\application\\config",
+			"C:\\AppServ\\www\\sigepv1",
+			"C:\\AppServ\\www\\sarh-desarrollo",
+			"C:\\AppServ\\www\\sigep\\web",
+			"C:\\AppServ\\www\\sarh-desarrollo",
+			"C:\\AppServ\\www\\sigep\\web",
+			"C:\\AppServ\\www\\sigep\\web\\application\\controllers",
+			"C:\\AppServ\\www\\sigep\\web",
+			"C:\\AppServ\\www\\sigep\\intra",
+			"C:\\AppServ\\www\\sigep/intra",
+			"C:\\AppServ\\www\\sigep7intra",
+			"C:\\AppServ\\www\\micans\\teorema",
+			"<open folders>,C:\\AppServ\\www\\micans\\teorema",
+			"<open folders>",
+			"C:\\AppServ\\www\\prueba",
+			"C:\\AppServ\\www\\micans",
+			"C:\\AppServ\\www\\micans\\htdocs",
+			"C:\\AppServ\\www\\micans\\php.include",
+			"C:\\AppServ\\www\\micans",
+			"C:\\AppServ\\www\\micans\\zott"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			"ext_base_nombre_sitio",
+			".header",
+			".container {",
+			"border-radius",
+			"nav-primary",
+			"nav",
+			"logo",
+			".container{",
+			".container {",
+			".container{",
+			".container {",
+			"container",
+			"rosobe",
+			"face",
+			"font",
+			"300",
+			"loading",
+			"jqzoom",
+			"big",
+			"checkProducto",
+			"validation",
+			"$aData",
+			"footer",
+			"content",
+			"container",
+			"content",
+			"comenta",
+			"one-of",
+			"one",
+			"'SiteInfo'",
+			"$SiteInfo['title']",
+			"sigep",
+			"theme",
+			"$config['ext_base_site_info']['title']",
+			"titulo",
+			"title",
+			"idP",
+			"only",
+			"addParm",
+			"var ur",
+			"consul",
+			"gotoPage",
+			"pager",
+			"options",
+			"options.grid",
+			"clic",
+			"sRowProperties",
+			"$this->iRowAltPaternRepeat",
+			"doCell",
+			"rowEle",
+			"load",
+			"$this->_aTemplates['cellElement']",
+			"personal",
+			"nav",
+			"menu",
+			"nav",
+			"footer",
+			"getTreePreorder",
+			"orientat",
+			"page_orientation",
+			"K_PATH_IMAGES",
+			"image_di",
+			"K_PATH_IMAGES",
+			"header",
+			"]",
+			"$this->_config[",
+			"$this->_config",
+			"$tcpdf",
+			"orientat",
+			"instrumentos-resoluciones",
+			"background",
+			"limpiar",
+			"$sResponseUrl",
+			"iPerPage",
+			"hil",
+			"thead",
+			"acciones",
+			".button",
+			".agregar",
+			"btn-nuevo",
+			"agregar",
+			"mostrando",
+			"icono",
+			"#",
+			"sxhtml",
+			"thead",
+			"border-radius",
+			"hilite",
+			"hits_sp_usuarios_validar",
+			"mensaje",
+			"inscripciones",
+			"validar",
+			"descripcionNoticia",
+			"descripc",
+			"desc",
+			"icon-",
+			"upload_path",
+			"jpg",
+			".icono-editar",
+			"icono",
+			"admin_",
+			"icon",
+			"ver",
+			"validar",
+			"lib_autenticacion",
+			"_setSession",
+			"esta",
+			"icon",
+			"i",
+			"icon",
+			"autenticacion",
+			"resource name",
+			"css",
+			"icon-",
+			"access",
+			"cumpleanos",
+			"cumpleano",
+			"cumpleanos",
+			"icon-",
+			"datos",
+			"_oModel",
+			"icon-",
+			"nombreUsuario",
+			"print",
+			"echo",
+			"_setSession",
+			"nombrePersona"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			")",
+			"$ci->config->item(",
+			"$config",
+			"usuarios",
+			"img",
+			"'",
+			"&ntilde",
+			"&uacute",
+			"&iacute",
+			"&eacute",
+			"&oacute",
+			"&aacute",
+			"array",
+			"idSlider",
+			"</strong><br>",
+			"src=\"http://localhost/teorema/htdocs",
+			"<p class=\"institucional\">",
+			"#aside",
+			"nav#aside",
+			"nav#main",
+			"../php.include/zott/",
+			"site_media"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/views/template.php",
+					"settings":
+					{
+						"buffer_size": 5877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2284,
+								2284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										297,
+										318
+									],
+									[
+										348,
+										369
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/config/navigation.php",
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								982,
+								982
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/themes/base/css/sabandijas.css",
+					"settings":
+					{
+						"buffer_size": 4904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3687,
+								3687
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3294.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/config/ext_config.php",
+					"settings":
+					{
+						"buffer_size": 12956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12253,
+								12216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 395.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/views/inicio.php",
+					"settings":
+					{
+						"buffer_size": 2356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								520,
+								520
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/views/nosotros.php",
+					"settings":
+					{
+						"buffer_size": 2512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1484,
+								1484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/models/layout_model.php",
+					"settings":
+					{
+						"buffer_size": 2789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1195,
+								1195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"menu",
+				"modules/menu/menu.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/AppServ/www/rosobe3/Industrias RoSoBe.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true
+}
