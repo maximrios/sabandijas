@@ -2,7 +2,7 @@
 class Categorias extends Ext_crud_Controller {
 	public function __construct() {
 		parent::__construct();
-        $this->load->model('rosobe/categorias_model', 'categorias');
+        $this->load->model('sabandijas/categorias_model', 'categorias');
         $this->load->library('gridview');
         $this->load->library('Messages');
         $this->load->helper('utils_helper');
@@ -40,7 +40,7 @@ class Categorias extends Ext_crud_Controller {
         $val = $this->form_validation->set_rules($this->_aReglas);
     }
 	function index() {
-		$this->_vcContentPlaceHolder = $this->load->view('administrator/rosobe/categorias/principal', array(), true);
+		$this->_vcContentPlaceHolder = $this->load->view('administrator/sabandijas/categorias/principal', array(), true);
         parent::index();
 	}
 	public function listado() {
@@ -63,7 +63,7 @@ class Categorias extends Ext_crud_Controller {
         $controles .= '<a href="administrator/categorias/eliminar/{idCategoria}" title="Eliminar {nombreCategoria}" class="btn-accion" rel="{\'idCategoria\': {idCategoria}}">&nbsp;<span class="glyphicon glyphicon-trash"></span>&nbsp;</a>';
         $this->gridview->addControl('inIdFaqCtrl', array('face' => $controles, 'class' => 'acciones', 'style' => 'width:64px;'));
         $this->_rsRegs = $this->categorias->obtener($vcBuscar, $this->gridview->getLimit1(), $this->gridview->getLimit2());
-        $this->load->view('administrator/rosobe/categorias/listado'
+        $this->load->view('administrator/sabandijas/categorias/listado'
             , array(
                 'vcGridView' => $this->gridview->doXHtml($this->_rsRegs)
                 , 'vcMsjSrv' => $this->_aEstadoOper['message']
@@ -86,7 +86,7 @@ class Categorias extends Ext_crud_Controller {
         $aData['vcFrmAction'] = 'administrator/categorias/guardar';
         $aData['vcMsjSrv'] = $this->_aEstadoOper['message'];
         $aData['vcAccion'] = ($this->_reg['idCategoria'] > 0) ? 'Modificar' : 'Agregar';
-        $this->load->view('administrator/rosobe/categorias/formulario', $aData);
+        $this->load->view('administrator/sabandijas/categorias/formulario', $aData);
 	}
 	function guardar() {
 		antibotCompararLlave($this->input->post('vcForm'));

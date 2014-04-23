@@ -9,7 +9,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Inicio extends Ext_Controller {
 	function __construct() {
 		parent::__construct();
-		$this->load->model('rosobe/rosobe_model', 'layout');
+		$this->load->model('layout_model', 'layout');
 		$this->load->library('Messages');
         $this->load->helper('utils_helper');
 		$this->_aReglas = array(
@@ -31,7 +31,7 @@ class Inicio extends Ext_Controller {
 	public function index() {
 		$aData = array();
 		$aData['slider'] = $this->layout->obtenerSlider();
-		$aData['productos'] = $this->layout->obtenerDestacados();
+		$aData['categorias'] = $this->layout->obtenerCategorias();
 		$this->_SiteInfo['title'] .= ' - Inicio';
 		$this->_menu = 'inicio';
 		$this->_vcContentPlaceHolder = $this->load->view('inicio', $aData, true);
@@ -39,6 +39,7 @@ class Inicio extends Ext_Controller {
 	}
 	public function nosotros() {
 		$aData = array();
+		$aData['categorias'] = $this->layout->obtenerCategorias();
 		$this->_SiteInfo['title'] .= ' - Nosotros';
 		$this->_menu = 'nosotros';
 		$this->_vcContentPlaceHolder = $this->load->view('nosotros', $aData, true);

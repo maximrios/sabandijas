@@ -6,14 +6,14 @@ class Categorias_model extends CI_Model {
     }
     public function obtener($vcBuscar = '', $limit = 0, $offset = 9999999) {
         $sql = 'SELECT *
-            FROM rosobe_view_categorias
+            FROM sabandijas_categorias
             WHERE nombreCategoria LIKE ? 
             ORDER BY nombreCategoria ASC  
             limit ? offset ? ;';
         return $this->db->query($sql, array('%' . strtolower((string) $vcBuscar) . '%', (double) $offset, (double) $limit))->result_array();
     }
     public function numRegs($vcBuscar, $area=1, $cargo=0) {
-        $sql = 'SELECT count(idCategoria) AS inCant FROM rosobe_view_categorias WHERE lower(nombreCategoria) LIKE ? ';
+        $sql = 'SELECT count(idCategoria) AS inCant FROM sabandijas_categorias WHERE lower(nombreCategoria) LIKE ? ';
         $result = $this->db->query($sql, array(strtolower('%' . strtolower($vcBuscar) . '%')))->result_array();
         return $result[0]['inCant'];
     }

@@ -10,12 +10,12 @@
                 <h4><span>Nuestros Productos</span></h4>
             </div>
             <ul class="categorias">
-            <?php foreach ($productos as $producto) { ?>
-                <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                    <figure style="background:white;border: 1px solid #D9D9D9;min-height:180px;">
-                        <a href="producto/<?=$producto['uriProducto']?>" title="<?=$producto['nombreProducto']?>" alt="<?=$producto['nombreProducto']?>"><img width="170" src="<?=$producto['thumbProductoImagen']?>" alt="<?=$producto['nombreProducto']?>"></a>
+            <?php foreach ($categorias as $categoria) { ?>
+                <li class="col-xs-12 col-sm-6 col-md-4 col-lg-4" style="background:red;margin-bottom:2.5em;">
+                    <figure style="background:#f6f5f5;border: 1px solid #D9D9D9;min-height:180px;padding-top:0.5em;">
+                        <a href="productos" title="<?=$categoria['nombreCategoria']?>" alt="<?=$categoria['nombreCategoria']?>"><img width="280" src="<?=$categoria['pathCategoria']?>" alt="<?=$categoria['nombreCategoria']?>" style="border:1px #888 solid;" class="center-block"></a>
                         <figcaption>
-                            <h4><?=$producto['nombreProducto']?></h4>
+                            <h3><?=$categoria['nombreCategoria']?></h3>
                         </figcaption>
                     </figure>
                 </li>

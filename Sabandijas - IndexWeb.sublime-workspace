@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"file",
+				"fileSelect"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"css",
+				"cssmenu"
+			],
+			[
 				"pad",
 				"padding-left"
 			],
@@ -18,10 +38,6 @@
 			[
 				"marg",
 				"margin-left"
-			],
-			[
-				"padd",
-				"padding-bottom"
 			],
 			[
 				"margin",
@@ -498,50 +514,24 @@
 			[
 				"cuad",
 				"cuadro_actual"
-			],
-			[
-				"op",
-				"option	Tag"
-			],
-			[
-				"titulo",
-				"tituloNoticia"
-			],
-			[
-				"strip",
-				"stripslashes"
-			],
-			[
-				"publ",
-				"publicadoNoticia"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "application/views/template.php",
+			"file": "application/controllers/administrator/categorias.php",
 			"settings":
 			{
-				"buffer_size": 5877,
+				"buffer_size": 6296,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "Searching 1283 files for \"ext_base_nombre_sitio\"\n\nC:\\AppServ\\www\\sabandijas\\application\\views\\template.php:\n   46              <div class=\"col-lg-8 col-lg-offset-2\">\n   47                  <h1 id=\"logo\">\n   48:                     <a href=\"http://www.industriasrosobe.com.ar\" alt=\"<?=config_item('ext_base_nombre_sitio');?>\" title=\"<?=config_item('ext_base_nombre_sitio');?>\">Sabandijas - Rodados para Bebé</a>\n   49                  </h1>\n   50                  <div id=\"locked\" class=\"pull-right col-lg-2\">\n\n2 matches in 1 file\n",
+			"file": "application/models/sabandijas/categorias_model.php",
 			"settings":
 			{
-				"buffer_size": 530,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "application/config/navigation.php",
-			"settings":
-			{
-				"buffer_size": 1132,
+				"buffer_size": 2507,
 				"line_ending": "Windows"
 			}
 		},
@@ -549,15 +539,7 @@
 			"file": "assets/themes/base/css/sabandijas.css",
 			"settings":
 			{
-				"buffer_size": 4904,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/config/ext_config.php",
-			"settings":
-			{
-				"buffer_size": 12956,
+				"buffer_size": 4903,
 				"line_ending": "Windows"
 			}
 		},
@@ -565,7 +547,15 @@
 			"file": "application/views/inicio.php",
 			"settings":
 			{
-				"buffer_size": 2356,
+				"buffer_size": 2448,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/inicio.php",
+			"settings":
+			{
+				"buffer_size": 5165,
 				"line_ending": "Windows"
 			}
 		},
@@ -573,15 +563,7 @@
 			"file": "application/views/nosotros.php",
 			"settings":
 			{
-				"buffer_size": 2512,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/models/layout_model.php",
-			"settings":
-			{
-				"buffer_size": 2789,
+				"buffer_size": 3141,
 				"line_ending": "Windows"
 			}
 		}
@@ -610,7 +592,23 @@
 	},
 	"file_history":
 	[
+		"/C/AppServ/www/sabandijas/application/config/ext_config.php",
+		"/C/AppServ/www/sabandijas/assets/themes/base/js/hits.js",
+		"/C/AppServ/www/sabandijas/application/views/administrator/rosobe/productos/formulario.php",
+		"/C/AppServ/www/sabandijas/application/views/administrator/sabandijas/categorias/listado.php",
+		"/C/AppServ/www/sabandijas/application/views/administrator/sabandijas/categorias/formulario.php",
+		"/C/AppServ/www/sabandijas/application/views/nosotros.php",
+		"/C/AppServ/www/sabandijas/application/views/template.php",
+		"/C/AppServ/www/sabandijas/application/config/navigation.php",
+		"/C/AppServ/www/sabandijas/assets/themes/base/css/sabandijas.css",
+		"/C/AppServ/www/rosobe/application/config/ext_config.php",
+		"/C/AppServ/www/sabandijas/application/views/inicio.php",
+		"/C/AppServ/www/sabandijas/application/models/layout_model.php",
 		"/C/AppServ/www/sabandijas/application/controllers/inicio.php",
+		"/C/AppServ/www/sabandijas/application/config/autoload.php",
+		"/C/AppServ/www/sabandijas/application/config/database.php",
+		"/C/AppServ/www/sabandijas/application/models/sigep/layout_model.php",
+		"/C/Users/maxim/Documents/Trabajo/Diario El Tribuno/mail.txt",
 		"/C/AppServ/www/sabandijas/application/models/sabandijas/categorias_model.php",
 		"/C/AppServ/www/sabandijas/application/models/sabandijas_model.php",
 		"/C/AppServ/www/sabandijas/application/helpers/navigation_helper.php",
@@ -618,10 +616,8 @@
 		"/C/AppServ/www/sabandijas/assets/themes/base/css/hits.css",
 		"/C/AppServ/www/sabandijas/application/config/config.editable.php",
 		"/C/AppServ/www/sabandijas/application/config/config.editable.titulos.php",
-		"/C/AppServ/www/sabandijas/application/config/ext_config.php",
 		"/C/AppServ/www/sabandijas/.htaccess",
 		"/C/AppServ/www/rosobe/application/views/producto.php",
-		"/C/AppServ/www/rosobe/application/config/ext_config.php",
 		"/C/AppServ/www/micans/teorema/php.include/model/catalogo.inc",
 		"/C/AppServ/www/rosobe/application/controllers/inicio.php",
 		"/C/AppServ/www/rosobe/application/views/contacto.php",
@@ -723,21 +719,7 @@
 		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal.php",
 		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal-solicitudes.php",
 		"/C/AppServ/www/sigepv1/assets/themes/piedra1.0/css/layout.css",
-		"/C/AppServ/www/sigepv1/application/views/administrator/hits/mensajes/formulario.php",
-		"//131.107.3.14/sigep/intra/application/views/admin/materiales.php",
-		"/C/AppServ/www/sigepv1/application/controllers/administrator/reportes.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/reportes/especial.php",
-		"/C/AppServ/www/sigepv1/application/controllers/administrator/solicitudes.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/reportes/repo-agentes.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/formularios/lespecial.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/hits/noticias/noticias.php",
-		"//131.107.3.14/sigep/intra/application/views/admin/capacitacion.php",
-		"//131.107.3.14/sigep/intra/application/views/admin/home.php",
-		"//131.107.3.14/sigep/intra/application/controllers/capacitacion.php",
-		"//131.107.3.14/sigep/intra/application/libraries/Nested_set.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/formularios/formulario-lespecial.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/cuadro/cargos/listado.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/cuadro/cuadrocargosagentes/listado.php"
+		"/C/AppServ/www/sigepv1/application/views/administrator/hits/mensajes/formulario.php"
 	],
 	"find":
 	{
@@ -959,18 +941,44 @@
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/template.php",
+					"file": "application/controllers/administrator/categorias.php",
 					"settings":
 					{
-						"buffer_size": 5877,
+						"buffer_size": 6296,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2284,
-								2284
+								4268,
+								4268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/models/sabandijas/categorias_model.php",
+					"settings":
+					{
+						"buffer_size": 2507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								714,
+								714
 							]
 						],
 						"settings":
@@ -980,34 +988,102 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "assets/themes/base/css/sabandijas.css",
 					"settings":
 					{
-						"buffer_size": 530,
+						"buffer_size": 4903,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										297,
-										318
-									],
-									[
-										348,
-										369
-									]
-								],
-								"scope": ""
-							}
+						},
+						"selection":
+						[
+							[
+								1037,
+								1037
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/inicio.php",
+					"settings":
+					{
+						"buffer_size": 2448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								807,
+								807
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/controllers/inicio.php",
+					"settings":
+					{
+						"buffer_size": 5165,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1227,
+								1227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/views/nosotros.php",
+					"settings":
+					{
+						"buffer_size": 3141,
+						"regions":
+						{
 						},
 						"selection":
 						[
@@ -1018,183 +1094,11 @@
 						],
 						"settings":
 						{
-							"detect_indentation": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application/config/navigation.php",
-					"settings":
-					{
-						"buffer_size": 1132,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								982,
-								982
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/themes/base/css/sabandijas.css",
-					"settings":
-					{
-						"buffer_size": 4904,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3687,
-								3687
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3294.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "application/config/ext_config.php",
-					"settings":
-					{
-						"buffer_size": 12956,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12253,
-								12216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 395.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "application/views/inicio.php",
-					"settings":
-					{
-						"buffer_size": 2356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								520,
-								520
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "application/views/nosotros.php",
-					"settings":
-					{
-						"buffer_size": 2512,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1484,
-								1484
-							]
-						],
-						"settings":
-						{
 							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 324.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "application/models/layout_model.php",
-					"settings":
-					{
-						"buffer_size": 2789,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1195,
-								1195
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.y": 702.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

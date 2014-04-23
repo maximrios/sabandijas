@@ -2,6 +2,9 @@
 	#cssmenu > ul {
 		padding-left: 0;
 	}
+	#cssmenu > ul > li > ul {
+		display: none;
+	}
 	#cssmenu ul {
 		list-style: none;
 	}
@@ -20,6 +23,11 @@
 	}
 	#cssmenu ul li ul li:last-child {
 		border: none;
+	}
+	#cssmenu ul li a:hover, #cssmenu ul li a:active, #cssmenu ul li a:focus {
+		text-decoration: none;
+		border: none;
+  		outline: 0;
 	}
 </style>
 <div class="row ubicacion">
@@ -48,7 +56,10 @@
 			<h3>Productos <span class="celeste">Categorías</span></h3>
 			<div id="cssmenu">
 				<ul>
-					<li><a href="#"><span>Home</span></a></li>
+					<?php foreach ($categorias as $categoria) { ?>
+						<li><a href="#"><?=$categoria['nombreCategoria']?></a></li>
+					<?php } ?>
+					<!--<li><a href="#"><span>Home</span></a></li>
 					<li><a href="#">Products</a>
 						<ul>
 							<li><a href="#">Widgets</a></li>
@@ -62,7 +73,7 @@
 							<li><a href="#">Location</a></li>
 						</ul>
 					</li>
-					<li><a href="#"><span>Contact</span></a></li>
+					<li><a href="#"><span>Contact</span></a></li>-->
 				</ul>
 			</div>
 		</div>

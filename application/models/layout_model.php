@@ -28,6 +28,7 @@ class Layout_model extends CI_Model {
     }
     public function obtenerCategorias() {
         $sql = 'SELECT * FROM sabandijas_categorias WHERE idCategoria NOT IN (SELECT idSubcategoria FROM sabandijas_categorias_relaciones)';
+        return $this->db->query($sql)->result_array();
     }
     public function obtenerUno($id) {
         $sql = 'SELECT * FROM rosobe_view_categorias WHERE idCategoria = ?;';
@@ -44,7 +45,27 @@ class Layout_model extends CI_Model {
         $result = $this->db->query($sql, array($id))->result_array();
         return $result[0]['result'];
     }
-    
+    function obtenerSlider() {
+        $sql = 'SELECT * FROM rosobe_slider WHERE activoSlider = 1 AND NOW() BETWEEN vigenciaDesde AND vigenciaHasta';
+        return $this->db->query($sql)->result_array();
+    }
+    function obtenerProductos($categoria=0) {
+        ($categoria == 0)? $and='':$and='AND idCategoria = '.$categoria;
+        $sql = 'SELECT * FROM rosobe_view_productos WHERE checkProductoImagen = 1 '.$and.' GROUP BY idProducto';
+        return $this->db->query($sql)->result_array();
+    }
+    function obtenerDestacados() {
+        $sql = 'SELECT * FROM rosobe_view_productos GROUP BY idProducto LIMIT 0, 4';
+        return $this->db->query($sql)->result_array();
+    }
+    function obtenerRelacionados($producto=0) {
+        $sql = 'SELECT * FROM rosobe_view_productos GROUP BY idProducto LIMIT 0, 3';
+        return $this->db->query($sql)->result_array();
+    }
+    function obtener_galeria() {
+        $sql = 'SELECT * FROM hits_galeria WHERE estadoGaleria = 1';
+        return $this->db->query($sql)->result_array();
+    }
     public function obtenerCategoriasProducto($idProducto = 0) {
         $sql = 'SELECT c.idCategoria, c.nombreCategoria, IF(cp.idCategoriaProducto IS NULL, 0, 1) AS checked, cp.idProducto
                 FROM rosobe_categorias c

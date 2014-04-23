@@ -20,7 +20,7 @@ $config['ext_base_url_assets_css'] = 'assets/css/';
 $config['ext_base_url_assets_images'] = 'assets/images/';
 
 $config['ext_base_panel']['titulo'] = 'Panel de Administración';
-$config['ext_base_panel']['cliente'] = 'Industrias y Servicios Ro.So.Be.';
+$config['ext_base_panel']['cliente'] = 'Sabandijas Rodados';
 
 /**
  * Especificos globales, a cada sistema o sitio
@@ -33,7 +33,7 @@ $config['ext_base_logo_footer'] = $config['ext_base_url_assets_images']. 'logo-e
 
 
 $config['ext_base_login_username']='nombre de usuario';
-$config['ext_base_pie_desarrollo']='HITS - Soluciones Informáticas';
+$config['ext_base_pie_desarrollo']='Index Soluciones Web';
 $config['ext_base_pie_resolucion']='Optimizado para 1024x768px o superior.';
 $config['ext_base_pie_navegadores']='Mozilla Firefox 7 / Chrome 14 / Opera 11';
 
@@ -211,7 +211,7 @@ $config['js_array_admin'] = array(
     'assets/libraries/jquery.file.upload/jquery.fileupload.js',
     'assets/libraries/jquery.file.upload/jquery.fileupload-process.js',
     'assets/libraries/jquery.file.upload/jquery.fileupload-image.js',
-    'assets/libraries/chosen/chosen.jquery.js',
+    $config['ext_base_url_plantilla_elegida'].'js/hits.js',
     
 );
 $config['css_array_admin'] = array(
@@ -221,16 +221,18 @@ $config['css_array_admin'] = array(
     $config['ext_base_url_plantilla_elegida'].'css/notificaciones.css',
     $config['ext_base_url_plantilla_elegida'].'css/jqueryvalidation-validationEngine.jquery.css',
     $config['ext_base_url_plantilla_elegida'].'css/jquery.fileupload.css',
-    'assets/libraries/chosen/chosen.jquery.js',
+    
 );
 // Array de JS
 $config['js_array'] = array(
     'assets/themes/base/js/jquery.js',
     'assets/themes/base/js/bootstrap.js',
+    $config['ext_base_url_plantilla_elegida'].'js/jquery.nivo.slider.pack.js',
 );
 
 // Array de CSS
 $config['css_array'] = array(
     $config['ext_base_url_plantilla_elegida'].'css/bootstrap.css',
+    $config['ext_base_url_plantilla_elegida'].'css/nivo-slider.css',
     $config['ext_base_url_plantilla_elegida'].'css/sabandijas.css',
 );
