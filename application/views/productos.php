@@ -32,48 +32,41 @@
 </style>
 <div class="row ubicacion">
 	<h3>PRODUCTOS</h3>
-	<h5>Home / Productos</h5>
+	<h5><?=$breadcrumb?></h5>
 </div>
 <section>
 	<div class="row">
 		<div class="col-lg-8">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<div id="slider-empresa">
-				<img src="assets/images/empresa/imagen1.jpg">
-			</div>
+			<ul class="categorias">
+            <?php foreach ($productos as $producto) { ?>
+                <li class="col-xs-12 col-sm-6 col-md-4 col-lg-6" style="margin-bottom:2.5em;">
+                    <figure style="background:#f6f5f5;">
+                        <a href="producto/<?=$producto['uriProducto']?>" title="<?=$producto['nombreProducto']?>" alt="<?=$producto['nombreProducto']?>"><img src="<?=$producto['thumbProductoImagen']?>" alt="<?=$producto['nombreProducto']?>" style="border:1px #888 solid;" class="center-block"></a>
+                        <figcaption>
+                            <h3><?=$producto['nombreProducto']?></h3>
+                        </figcaption>
+                    </figure>
+                </li>
+            <?php } ?>  
+            </ul>
 		</div>
 		<div class="col-lg-4 categorias">
 			<h3>Productos <span class="celeste">Categorías</span></h3>
 			<div id="cssmenu">
 				<ul>
 					<?php foreach ($categorias as $categoria) { ?>
-						<li><a href="#"><?=$categoria['nombreCategoria']?></a></li>
+						<li><a href="#"><?=$categoria['nombreCategoria']?></a>
+							<?php if($subcategorias = $this->layout->obtenerCategorias($categoria['idCategoria'])) { ?>
+							<ul>
+							<?php foreach ($subcategorias as $subcategoria) { ?>
+								<li><a href="productos/<?=$subcategoria['uriCategoria']?>"><?=$subcategoria['nombreCategoria']?></a></li>
+							<?php } ?>
+							</ul>
+							<?php } 
+							else { ?>
+								</li>
+							<?php } ?>
 					<?php } ?>
-					<!--<li><a href="#"><span>Home</span></a></li>
-					<li><a href="#">Products</a>
-						<ul>
-							<li><a href="#">Widgets</a></li>
-							<li><a href="#">Menus</a></li>
-							<li><a href="#">Products</a></li>
-						</ul>
-					</li>
-					<li><a href="#"><span>Company</span></a>
-						<ul>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="#"><span>Contact</span></a></li>-->
 				</ul>
 			</div>
 		</div>

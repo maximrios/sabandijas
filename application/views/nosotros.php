@@ -57,23 +57,18 @@
 			<div id="cssmenu">
 				<ul>
 					<?php foreach ($categorias as $categoria) { ?>
-						<li><a href="#"><?=$categoria['nombreCategoria']?></a></li>
+						<li><a href="#"><?=$categoria['nombreCategoria']?></a>
+							<?php if($subcategorias = $this->layout->obtenerCategorias($categoria['idCategoria'])) { ?>
+							<ul>
+							<?php foreach ($subcategorias as $subcategoria) { ?>
+								<li><a href="productos/<?=$subcategoria['uriCategoria']?>"><?=$subcategoria['nombreCategoria']?></a></li>
+							<?php } ?>
+							</ul>
+							<?php } 
+							else { ?>
+								</li>
+							<?php } ?>
 					<?php } ?>
-					<!--<li><a href="#"><span>Home</span></a></li>
-					<li><a href="#">Products</a>
-						<ul>
-							<li><a href="#">Widgets</a></li>
-							<li><a href="#">Menus</a></li>
-							<li><a href="#">Products</a></li>
-						</ul>
-					</li>
-					<li><a href="#"><span>Company</span></a>
-						<ul>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Location</a></li>
-						</ul>
-					</li>
-					<li><a href="#"><span>Contact</span></a></li>-->
 				</ul>
 			</div>
 		</div>
