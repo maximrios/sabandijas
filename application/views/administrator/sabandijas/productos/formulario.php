@@ -28,6 +28,35 @@
                 <?php }?>
             </ul>
         </div>
+        <div class="col-lg-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">Categorias disponibles</div>
+                <div class="panel-body">
+                    <select class="col-lg-12" name="origen[]" id="origen" multiple="multiple" size="8" style="border:none;">
+                    <?php foreach ($categorias as $categoria) { ?>
+                        <option value="<?=$categoria['idCategoria']?>"><?=$categoria['nombreCategoria']?></option>
+                    <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <input type="button" class="pasar izq" value="Pasar »"><input type="button" class="quitar der" value="« Quitar"><br />
+            <input type="button" class="pasartodos izq" value="Todos »"><input type="button" class="quitartodos der" value="« Todos">
+        </div>
+        <div class="col-lg-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">Categorias relacionadas</div>
+                <div class="panel-body">
+                    <select class="col-lg-12" name="destino[]" id="destino" multiple="multiple" size="8">
+                    <?php foreach ($categorias as $categoria) { ?>
+                        <option value="<?=$categoria['idCategoria']?>"><?=$categoria['nombreCategoria']?></option>
+                    <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <p class="clear"><input type="submit" class="submit" value="Procesar formulario"></p>
         <div class="form-group col-lg-12">
             <label for="descripcionProducto">Imagenes</label>
             <input type="file" name="userfile[]" id="userfile" multiple/>
