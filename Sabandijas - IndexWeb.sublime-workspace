@@ -520,50 +520,42 @@
 	"buffers":
 	[
 		{
-			"file": "application/controllers/administrator/categorias.php",
+			"file": "application/views/administrator/sabandijas/productos/formulario.php",
 			"settings":
 			{
-				"buffer_size": 6296,
+				"buffer_size": 5989,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/models/sabandijas/categorias_model.php",
+			"file": "application/views/administrator/sabandijas/productos/listado.php",
 			"settings":
 			{
-				"buffer_size": 2507,
+				"buffer_size": 501,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/themes/base/css/sabandijas.css",
+			"file": "application/views/administrator/sabandijas/productos/principal.php",
 			"settings":
 			{
-				"buffer_size": 4903,
+				"buffer_size": 736,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/views/inicio.php",
+			"file": "application/controllers/administrator/productos.php",
 			"settings":
 			{
-				"buffer_size": 2448,
+				"buffer_size": 13862,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/controllers/inicio.php",
+			"file": "application/models/sabandijas/productos_model.php",
 			"settings":
 			{
-				"buffer_size": 5165,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/views/nosotros.php",
-			"settings":
-			{
-				"buffer_size": 3141,
+				"buffer_size": 4906,
 				"line_ending": "Windows"
 			}
 		}
@@ -592,24 +584,31 @@
 	},
 	"file_history":
 	[
+		"/C/AppServ/www/sabandijas/application/models/sabandijas/categorias_model.php",
+		"/C/AppServ/www/sabandijas/application/controllers/administrator/categorias.php",
+		"/C/AppServ/www/sabandijas/assets/themes/base/css/sabandijas.css",
+		"/C/AppServ/www/sabandijas/application/views/inicio.php",
+		"/C/AppServ/www/sabandijas/application/controllers/inicio.php",
+		"/C/AppServ/www/sabandijas/application/views/nosotros.php",
+		"/C/AppServ/www/sabandijas/application/views/productos.php",
+		"/C/AppServ/www/sabandijas/application/models/sabandijas/productos_model.php",
+		"/C/AppServ/www/sabandijas/application/controllers/administrator/productos.php",
+		"/C/AppServ/www/sabandijas/application/views/administrator/sabandijas/productos/formulario.php",
+		"/C/AppServ/www/sabandijas/application/views/administrator/sabandijas/productos/principal.php",
+		"/C/AppServ/www/sabandijas/application/views/administrator/sabandijas/productos/listado.php",
 		"/C/AppServ/www/sabandijas/application/config/ext_config.php",
 		"/C/AppServ/www/sabandijas/assets/themes/base/js/hits.js",
 		"/C/AppServ/www/sabandijas/application/views/administrator/rosobe/productos/formulario.php",
 		"/C/AppServ/www/sabandijas/application/views/administrator/sabandijas/categorias/listado.php",
 		"/C/AppServ/www/sabandijas/application/views/administrator/sabandijas/categorias/formulario.php",
-		"/C/AppServ/www/sabandijas/application/views/nosotros.php",
 		"/C/AppServ/www/sabandijas/application/views/template.php",
 		"/C/AppServ/www/sabandijas/application/config/navigation.php",
-		"/C/AppServ/www/sabandijas/assets/themes/base/css/sabandijas.css",
 		"/C/AppServ/www/rosobe/application/config/ext_config.php",
-		"/C/AppServ/www/sabandijas/application/views/inicio.php",
 		"/C/AppServ/www/sabandijas/application/models/layout_model.php",
-		"/C/AppServ/www/sabandijas/application/controllers/inicio.php",
 		"/C/AppServ/www/sabandijas/application/config/autoload.php",
 		"/C/AppServ/www/sabandijas/application/config/database.php",
 		"/C/AppServ/www/sabandijas/application/models/sigep/layout_model.php",
 		"/C/Users/maxim/Documents/Trabajo/Diario El Tribuno/mail.txt",
-		"/C/AppServ/www/sabandijas/application/models/sabandijas/categorias_model.php",
 		"/C/AppServ/www/sabandijas/application/models/sabandijas_model.php",
 		"/C/AppServ/www/sabandijas/application/helpers/navigation_helper.php",
 		"/C/AppServ/www/sabandijas/assets/themes/base/css/rosobe.css",
@@ -712,14 +711,7 @@
 		"/C/AppServ/www/sigepv1/application/views/masterpage.php",
 		"/C/AppServ/www/sigepv1/application/views/menu/admin_5.php",
 		"/C/AppServ/www/sigepv1/application/models/sigep/licencias_model.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal-personal.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/listado-personal.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/listado.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/listado-solicitudes.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal-solicitudes.php",
-		"/C/AppServ/www/sigepv1/assets/themes/piedra1.0/css/layout.css",
-		"/C/AppServ/www/sigepv1/application/views/administrator/hits/mensajes/formulario.php"
+		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal-personal.php"
 	],
 	"find":
 	{
@@ -936,133 +928,51 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/controllers/administrator/categorias.php",
+					"file": "application/views/administrator/sabandijas/productos/formulario.php",
 					"settings":
 					{
-						"buffer_size": 6296,
+						"buffer_size": 5989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4268,
-								4268
+								2367,
+								2367
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1242.0,
+						"translation.y": 665.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "application/models/sabandijas/categorias_model.php",
+					"file": "application/views/administrator/sabandijas/productos/listado.php",
 					"settings":
 					{
-						"buffer_size": 2507,
+						"buffer_size": 501,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								714,
-								714
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "assets/themes/base/css/sabandijas.css",
-					"settings":
-					{
-						"buffer_size": 4903,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1037,
-								1037
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "application/views/inicio.php",
-					"settings":
-					{
-						"buffer_size": 2448,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								807,
-								807
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 126.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "application/controllers/inicio.php",
-					"settings":
-					{
-						"buffer_size": 5165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1227,
-								1227
+								310,
+								480
 							]
 						],
 						"settings":
@@ -1071,17 +981,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 432.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "application/views/nosotros.php",
+					"buffer": 2,
+					"file": "application/views/administrator/sabandijas/productos/principal.php",
 					"settings":
 					{
-						"buffer_size": 3141,
+						"buffer_size": 736,
 						"regions":
 						{
 						},
@@ -1094,11 +1004,66 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 702.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/controllers/administrator/productos.php",
+					"settings":
+					{
+						"buffer_size": 13862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5344,
+								5344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/models/sabandijas/productos_model.php",
+					"settings":
+					{
+						"buffer_size": 4906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4076,
+								4076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

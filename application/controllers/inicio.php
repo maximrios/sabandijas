@@ -56,6 +56,7 @@ class Inicio extends Ext_Controller {
 		$aData = array();
 		$this->_SiteInfo['title'] .= ' - Productos';
 		$this->_menu = 'productos';
+		$aData['categorias'] = $this->layout->obtenerCategorias();
 		$aData['productos'] = $this->layout->obtenerProductos();
 		$this->_vcContentPlaceHolder = $this->load->view('productos', $aData, true);
 		parent::index();

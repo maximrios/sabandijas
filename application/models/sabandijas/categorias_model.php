@@ -18,7 +18,7 @@ class Categorias_model extends CI_Model {
         return $result[0]['inCant'];
     }
     public function obtenerUno($id) {
-        $sql = 'SELECT * FROM rosobe_view_categorias WHERE idCategoria = ?;';
+        $sql = 'SELECT * FROM sabandijas_view_categorias WHERE idCategoria = ?;';
         return array_shift($this->db->query($sql, array($id))->result_array());
     }
     public function guardar($aParms) {
@@ -35,19 +35,19 @@ class Categorias_model extends CI_Model {
     
     public function obtenerCategoriasProducto($idProducto = 0) {
         $sql = 'SELECT c.idCategoria, c.nombreCategoria, IF(cp.idCategoriaProducto IS NULL, 0, 1) AS checked, cp.idProducto
-                FROM rosobe_categorias c
-                LEFT JOIN rosobe_categorias_productos cp ON c.idCategoria = cp.idCategoria AND cp.idProducto = ?;';
+                FROM sabandijas_categorias c
+                LEFT JOIN sabandijas_categorias_productos cp ON c.idCategoria = cp.idCategoria AND cp.idProducto = ?;';
         return $this->db->query($sql, (int) $idProducto)->result_array();
     }
 
     public function eliminarCategoriasProducto($idProducto) {
-        $sql = 'DELETE FROM rosobe_categorias_productos WHERE idProducto = ?;';
+        $sql = 'DELETE FROM sabandijas_categorias_productos WHERE idProducto = ?;';
         $this->db->query($sql, (int) $idProducto);
         return $this->db->affected_rows();
     }
 
     public function guardarCategoriasProducto($aParms) {
-        $sql = 'INSERT INTO rosobe_categorias_productos(idCategoria, idProducto) VALUES (?, ?);';
+        $sql = 'INSERT INTO sabandijas_categorias_productos(idCategoria, idProducto) VALUES (?, ?);';
         $this->db->query($sql, $aParms);
         return $this->db->affected_rows();
     }

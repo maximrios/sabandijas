@@ -2,8 +2,8 @@
 class Productos extends Ext_crud_Controller {
     public function __construct() {
         parent::__construct();
-        $this->load->model('rosobe/productos_model', 'productos');
-        $this->load->model('rosobe/categorias_model', 'categorias');
+        $this->load->model('sabandijas/productos_model', 'productos');
+        $this->load->model('sabandijas/categorias_model', 'categorias');
         $this->load->library('gridview');
         $this->load->library('Messages');
         $this->load->helper('utils_helper');
@@ -74,7 +74,7 @@ class Productos extends Ext_crud_Controller {
         $controles .= '<a href="administrator/productos/formulario/{idProducto}" title="Mostrar detalle de {nombreProducto}" class="btn-accion" rel="{\'idProducto\': {idProducto}}">&nbsp;<span class="glyphicon glyphicon-trash"></span>&nbsp;</a>';
         $this->gridview->addControl('inIdFaqCtrl', array('face' => $controles, 'class' => 'acciones', 'style' => 'width:64px;'));
         $this->_rsRegs = $this->productos->obtener($vcBuscar, $this->gridview->getLimit1(), $this->gridview->getLimit2());
-        $this->load->view('administrator/rosobe/productos/listado'
+        $this->load->view('administrator/sabandijas/productos/listado'
             , array(
                 'vcGridView' => $this->gridview->doXHtml($this->_rsRegs)
                 , 'vcMsjSrv' => $this->_aEstadoOper['message']
@@ -99,13 +99,15 @@ class Productos extends Ext_crud_Controller {
         $aData['vcAccion'] = ($this->_reg['idProducto'] > 0) ? 'Modificar' : 'Agregar';
         if($this->_reg['idProducto'] > 0) {
             $aData['imagenes'] = $this->productos->obtenerImagenes($this->_reg['idProducto']);
+            $aData['colores'] = $this->productos->obtenerColores();
             $aData['categorias'] = $this->categorias->obtenerCategoriasProducto($this->_reg['idProducto']);
         }
         else {
             $aData['imagenes'] = FALSE;
+            $aData['colores'] = $this->productos->obtenerColores();
             $aData['categorias'] = $this->categorias->obtenerCategoriasProducto();
         }
-        $this->load->view('administrator/rosobe/productos/formulario', $aData);
+        $this->load->view('administrator/sabandijas/productos/formulario', $aData);
     }
     function guardar() {
         antibotCompararLlave($this->input->post('vcForm'));

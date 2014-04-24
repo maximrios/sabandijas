@@ -1,73 +1,106 @@
-<section class="content wrap-content row">
-	<div class="col-lg-3">
-		<ul class="nav nav-panel">
-            <li>
-            	<label label-default="" class="tree-toggle nav-header">Aberturas</label>
-            	<ul class="nav tree">
-	            	<li><a href="#">Puertas</a></li>
-                	<li><a href="#">Ventanas</a></li>
-				</ul>
-            </li>
-            <li>
-            	<label label-default="" class="tree-toggle nav-header">Muebles en placa</label>
-                <ul class="nav tree">
-                	<li><a href="#">Cocinas</a></li>
-                    <li><a href="#">Comedores</a></li>
-                    <li><a href="#">Dormitorios</a></li>
-                    <li><a href="#">Placards</a></li>
-				</ul>
-			</li>
-            <li>
-				<label label-default="" class="tree-toggle nav-header">Rústicos</label>
-                <ul class="nav tree">
-                	<li><a href="#">Puertas</a></li>
-					<li><a href="#">Ventanas</a></li>
-					<li><a href="#">Cocinas</a></li>
-					<li><a href="#">Comedores</a></li>
-					<li><a href="#">Dormitorios</a></li>
-                    <!--<li>
-                    	<label label-default="" class="tree-toggle nav-header">Media Queries</label>
-                        <ul class="nav tree">
-                        	<li><a href="#">Text</a></li>
-                            <li><a href="#">Images</a></li>
+<style type="text/css">
+	#cssmenu > ul {
+		padding-left: 0;
+	}
+	#cssmenu > ul > li > ul {
+		display: none;
+	}
+	#cssmenu ul {
+		list-style: none;
+	}
+	#cssmenu ul li {
+		border-bottom: dotted;
+		border-width: 2px;
+		border-spacing: 5px;
+		border-color: #d0d0d0;
+		line-height: 1.8em;
+	}
+	#cssmenu ul li ul li:first-child {
+		border-top: dotted;
+		border-width: 2px;
+		border-spacing: 15px;
+		border-color: #d0d0d0;
+	}
+	#cssmenu ul li ul li:last-child {
+		border: none;
+	}
+	#cssmenu ul li a:hover, #cssmenu ul li a:active, #cssmenu ul li a:focus {
+		text-decoration: none;
+		border: none;
+  		outline: 0;
+	}
+</style>
+<div class="row ubicacion">
+	<h3>PRODUCTOS</h3>
+	<h5>Home / Productos</h5>
+</div>
+<section>
+	<div class="row">
+		<div class="col-lg-8">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div id="slider-empresa">
+				<img src="assets/images/empresa/imagen1.jpg">
+			</div>
+		</div>
+		<div class="col-lg-4 categorias">
+			<h3>Productos <span class="celeste">Categorías</span></h3>
+			<div id="cssmenu">
+				<ul>
+					<?php foreach ($categorias as $categoria) { ?>
+						<li><a href="#"><?=$categoria['nombreCategoria']?></a></li>
+					<?php } ?>
+					<!--<li><a href="#"><span>Home</span></a></li>
+					<li><a href="#">Products</a>
+						<ul>
+							<li><a href="#">Widgets</a></li>
+							<li><a href="#">Menus</a></li>
+							<li><a href="#">Products</a></li>
 						</ul>
-                    </li>-->
-                </ul>
-            </li>
-		</ul>
-	</div>
-	<div class="col-lg-9">
-		<h4>Productos destacados</h4>
-		<ul class="row" style="display:inline-block;">
-			<li style="display:inline-block;">
-			<?php
-			$i = 1;
-			for($i=1;$i<=3;$i++) { ?>
-				<img src="assets/images/productos/imagen<?=$i?>_thumb.jpg" style="margin: 0.4em;" width="">
-			<?php } ?>
-			</li>
-		</ul>
-		<h5>Aberturas / Ventanas</h5>
-		<div class="row">
-			<ul>
-				<?php foreach ($productos as $producto) { ?>
-				<li class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<figure style="text-align:center;padding: 0.4em 0;margin:0.3em;background:white;border: 1px solid #D9D9D9;min-height:330px;">
-						<a href="producto/<?=$producto['uriProducto']?>"><img width="170" src="<?=$producto['thumbProductoImagen']?>" alt="<?=$producto['nombreProducto']?>"></a>
-						<figcaption>
-							<label style="font-size:1em;margin:0.5em 0;"><?=$producto['nombreProducto']?></label>
-							<p style="font-size:0.9em;"><?=$producto['descripcionProducto']?>.</p>
-						</figcaption>
-					</figure>
-				</li>
-				<?php } ?>	
-			</ul>
+					</li>
+					<li><a href="#"><span>Company</span></a>
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Location</a></li>
+						</ul>
+					</li>
+					<li><a href="#"><span>Contact</span></a></li>-->
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>
 <script type="text/javascript">
-$('.tree-toggle').click(function () {
-	$(this).parent().children('ul.tree').toggle(200);
+	$('#cssmenu > ul > li > a').click(function() {
+
+	var checkElement = $(this).next();
+
+	$('#cssmenu li').removeClass('active');
+	$(this).closest('li').addClass('active');	
+
+	if((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+		$(this).closest('li').removeClass('active');
+		checkElement.slideUp('normal');
+	}
+
+	if((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+		$('#cssmenu ul ul:visible').slideUp('normal');
+		checkElement.slideDown('normal');
+	}
+
+	if (checkElement.is('ul')) {
+		return false;
+	} else {
+		return true;	
+	}
 });
-$("a[rel^='prettyPhoto']").prettyPhoto();
 </script>
