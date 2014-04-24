@@ -523,7 +523,7 @@
 			"file": "application/views/administrator/sabandijas/productos/formulario.php",
 			"settings":
 			{
-				"buffer_size": 5989,
+				"buffer_size": 7606,
 				"line_ending": "Windows"
 			}
 		},
@@ -936,15 +936,15 @@
 					"file": "application/views/administrator/sabandijas/productos/formulario.php",
 					"settings":
 					{
-						"buffer_size": 5989,
+						"buffer_size": 7606,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2367,
-								2367
+								2834,
+								2834
 							]
 						],
 						"settings":
@@ -954,7 +954,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 665.0,
+						"translation.y": 557.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1035,7 +1035,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 306.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
