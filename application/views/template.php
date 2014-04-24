@@ -45,7 +45,7 @@
         <div class="header-shadow">
         <header>
             
-            <div id="header" class="col-lg-9">
+            <div id="header" class="col-lg-8">
                 <h1 id="logo">
                     <a href="http://www.industriasrosobe.com.ar" alt="<?=config_item('ext_base_nombre_sitio');?>" title="<?=config_item('ext_base_nombre_sitio');?>">Sabandijas - Rodados para Bebé</a>
                 </h1>
@@ -75,12 +75,12 @@
             
         </header>
         </div>
-        <section id="wrap-content" class="col-lg-9">
+        <section id="wrap-content" class="col-lg-8">
             <section>
                 <?=$vcMainContent; ?>
             </section>
         </section>
-            <footer class="col-xs-12 col-lg-9">
+            <footer class="col-xs-12 col-lg-8">
                 <div class="info-shadow">
                 <div class="info row">
                     <div class="col-xs-12 col-lg-4">

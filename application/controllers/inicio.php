@@ -56,6 +56,7 @@ class Inicio extends Ext_Controller {
 		$aData = array();
 		$this->_SiteInfo['title'] .= ' - Productos';
 		$this->_menu = 'productos';
+		$aData['breadcrumb'] = 'Home / Productos / Categoria';
 		$aData['categorias'] = $this->layout->obtenerCategorias();
 		$aData['productos'] = $this->layout->obtenerProductos();
 		$this->_vcContentPlaceHolder = $this->load->view('productos', $aData, true);
@@ -63,14 +64,12 @@ class Inicio extends Ext_Controller {
 	}
 	public function producto($slug) {
 		$aData = array();
-		$this->load->model('rosobe/productos_model', 'productos');
-		$aData['producto'] = $this->productos->obtenerUnoSlug($slug);
+		$aData['producto'] = $this->layout->obtenerProductoSlug($slug);
 		if(!$aData['producto']) {
 			redirect('inicio/no_producto');
 		}
 		else {
-			$aData['imagenes'] = $this->productos->obtenerImagenes($aData['producto']['idProducto']);
-			$aData['productos'] = $this->layout->obtenerRelacionados($aData['producto']['idProducto']);
+			$aData['imagenes'] = $this->layout->obtenerImagenes($aData['producto']['idProducto']);
 		}
 		$this->_SiteInfo['title'] .= ' - '.$aData['producto']['nombreProducto'];
 		$this->_menu = 'productos';

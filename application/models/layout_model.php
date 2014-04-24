@@ -26,10 +26,10 @@ class Layout_model extends CI_Model {
         $result = $this->db->query($sql, array(strtolower('%' . strtolower($vcBuscar) . '%')))->result_array();
         return $result[0]['inCant'];
     }
-    public function obtenerCategorias() {
+    /*public function obtenerCategorias() {
         $sql = 'SELECT * FROM sabandijas_categorias WHERE idCategoria NOT IN (SELECT idSubcategoria FROM sabandijas_categorias_relaciones)';
         return $this->db->query($sql)->result_array();
-    }
+    }*/
     public function obtenerUno($id) {
         $sql = 'SELECT * FROM rosobe_view_categorias WHERE idCategoria = ?;';
         return array_shift($this->db->query($sql, array($id))->result_array());
@@ -46,13 +46,21 @@ class Layout_model extends CI_Model {
         return $result[0]['result'];
     }
     function obtenerSlider() {
-        $sql = 'SELECT * FROM rosobe_slider WHERE activoSlider = 1 AND NOW() BETWEEN vigenciaDesde AND vigenciaHasta';
+        $sql = 'SELECT * FROM sabandijas_slider WHERE activoSlider = 1 AND NOW() BETWEEN vigenciaDesde AND vigenciaHasta';
         return $this->db->query($sql)->result_array();
     }
     function obtenerProductos($categoria=0) {
         ($categoria == 0)? $and='':$and='AND idCategoria = '.$categoria;
-        $sql = 'SELECT * FROM rosobe_view_productos WHERE checkProductoImagen = 1 '.$and.' GROUP BY idProducto';
+        $sql = 'SELECT * FROM sabandijas_view_productos WHERE checkProductoImagen = 1 '.$and.' GROUP BY idProducto';
         return $this->db->query($sql)->result_array();
+    }
+    public function obtenerProductoSlug($slug) {
+        $sql = 'SELECT * FROM sabandijas_view_productos WHERE uriProducto = ?;';
+        return array_shift($this->db->query($sql, array($slug))->result_array());
+    }
+    public function obtenerCategoriaSlug($slug) {
+        $sql = 'SELECT * FROM sabandijas_view_categorias WHERE uriCategoria = ?;';
+        return array_shift($this->db->query($sql, array($slug))->result_array());
     }
     function obtenerDestacados() {
         $sql = 'SELECT * FROM rosobe_view_productos GROUP BY idProducto LIMIT 0, 4';
@@ -72,7 +80,17 @@ class Layout_model extends CI_Model {
                 LEFT JOIN rosobe_categorias_productos cp ON c.idCategoria = cp.idCategoria AND cp.idProducto = ?;';
         return $this->db->query($sql, (int) $idProducto)->result_array();
     }
-
+    public function obtenerCategorias($idCategoria=0) {
+        $categorias = ($idCategoria==0)? ' WHERE c.idCategoria NOT IN (select idSubcategoria from sabandijas_categorias_relaciones)':' INNER JOIN sabandijas_categorias_relaciones cr ON c.idCategoria = cr.idSubcategoria AND cr.idCategoria = '.$idCategoria;
+        $sql = 'SELECT c.idCategoria, c.nombreCategoria, c.pathCategoria, c.uriCategoria
+                FROM sabandijas_categorias c
+                '.$categorias.';';
+        return $this->db->query($sql)->result_array();
+    }
+    public function obtenerImagenes($id) {
+        $sql = 'SELECT * FROM sabandijas_productos_imagenes WHERE idProducto = ?;';
+        return $this->db->query($sql, (int) $id)->result_array();
+    }
     public function eliminarCategoriasProducto($idProducto) {
         $sql = 'DELETE FROM rosobe_categorias_productos WHERE idProducto = ?;';
         $this->db->query($sql, (int) $idProducto);

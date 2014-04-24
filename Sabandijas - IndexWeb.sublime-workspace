@@ -519,46 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "application/views/administrator/sabandijas/productos/formulario.php",
-			"settings":
-			{
-				"buffer_size": 5989,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/views/administrator/sabandijas/productos/listado.php",
-			"settings":
-			{
-				"buffer_size": 501,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/views/administrator/sabandijas/productos/principal.php",
-			"settings":
-			{
-				"buffer_size": 736,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/controllers/administrator/productos.php",
-			"settings":
-			{
-				"buffer_size": 13862,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/models/sabandijas/productos_model.php",
-			"settings":
-			{
-				"buffer_size": 4906,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -584,6 +544,11 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/sabandijas/application/views/administrator/sabandijas/productos/formulario.php",
+		"/C/xampp/htdocs/sabandijas/application/views/administrator/sabandijas/productos/listado.php",
+		"/C/xampp/htdocs/sabandijas/application/views/administrator/sabandijas/productos/principal.php",
+		"/C/xampp/htdocs/sabandijas/application/controllers/administrator/productos.php",
+		"/C/xampp/htdocs/sabandijas/application/models/sabandijas/productos_model.php",
 		"/C/AppServ/www/sabandijas/application/models/sabandijas/categorias_model.php",
 		"/C/AppServ/www/sabandijas/application/controllers/administrator/categorias.php",
 		"/C/AppServ/www/sabandijas/assets/themes/base/css/sabandijas.css",
@@ -706,12 +671,7 @@
 		"/C/AppServ/www/sigepv1/assets/libraries/sigep.js",
 		"/C/AppServ/www/sigepv1/application/views/administrator/hits/personas/principal.php",
 		"/C/AppServ/www/sigepv1/assets/themes/sigep/css/layout.css",
-		"//IRMA-NOOT/Manuales/Cursos Realizados/Curse RPC/Placas de video 10 31 12 - 084707.txt",
-		"/C/AppServ/www/sigepv1/application/controllers/administrator/licencias.php",
-		"/C/AppServ/www/sigepv1/application/views/masterpage.php",
-		"/C/AppServ/www/sigepv1/application/views/menu/admin_5.php",
-		"/C/AppServ/www/sigepv1/application/models/sigep/licencias_model.php",
-		"/C/AppServ/www/sigepv1/application/views/administrator/sigep/licencias/principal-personal.php"
+		"//IRMA-NOOT/Manuales/Cursos Realizados/Curse RPC/Placas de video 10 31 12 - 084707.txt"
 	],
 	"find":
 	{
@@ -928,146 +888,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "application/views/administrator/sabandijas/productos/formulario.php",
-					"settings":
-					{
-						"buffer_size": 5989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2367,
-								2367
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 665.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "application/views/administrator/sabandijas/productos/listado.php",
-					"settings":
-					{
-						"buffer_size": 501,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								310,
-								480
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application/views/administrator/sabandijas/productos/principal.php",
-					"settings":
-					{
-						"buffer_size": 736,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "application/controllers/administrator/productos.php",
-					"settings":
-					{
-						"buffer_size": 13862,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5344,
-								5344
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1620.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "application/models/sabandijas/productos_model.php",
-					"settings":
-					{
-						"buffer_size": 4906,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4076,
-								4076
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML5/Syntaxes/HTML 5.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 918.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1126,7 +948,7 @@
 		[
 			[
 				"",
-				"/C/AppServ/www/rosobe3/Industrias RoSoBe.sublime-project"
+				"/C/xampp/htdocs/sigep/Sindicatura General de la Provincia.sublime-project"
 			]
 		],
 		"width": 380.0
